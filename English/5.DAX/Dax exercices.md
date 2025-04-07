@@ -16,7 +16,10 @@ You need to calculate the **profit margin percentage** for each sales transactio
 
 #### **Explanation**
 Create a **calculated column** in Power BI that calculates profit margin using the formula:
-\[ \text{Profit Margin} = \frac{\text{Sales Amount} - \text{Cost Amount}}{\text{Sales Amount}} \times 100 \]
+\[
+\text{Profit Margin} = \left( \frac{\text{Sales Amount} - \text{Cost Amount}}{\text{Sales Amount}} \right) \times 100
+\]
+
 
 ---
 
